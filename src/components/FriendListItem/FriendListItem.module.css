@@ -1,0 +1,49 @@
+/* FriendListItem.module.css */
+
+/* Картка для кожного друга */
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+   
+}
+
+/* Стиль для аватара друга */
+.avatar {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+   
+    
+}
+
+
+.name {
+    font-size: 26px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+
+.statusText {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.onlineText {
+    color: green;
+}
+
+.offlineText {
+    color: red;
+}
